@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-page" id="login-page">
+    <!-- Sign In Form -->
+    <div class="form-container sign-in-container">
+      <div class="sign-in-up-tap">
+        <h1 class="login-page-h1">Sign In</h1>
+        <input class="login-page-input" id="sign-in-email" type="email" name="username" placeholder="Email" required />
+        <input class="login-page-input" id="sign-in-pass" type="password" name="password" placeholder="Password" required />
+        <a class="login-page-a" href="#">Forgot your password?</a>
+        <button class="login-page-btn" id="sign-in-btn" type="submit">Sign In</button>
+      </div>
+    </div>
+
+    <!-- Sign Up Form -->
+    <div class="form-container sign-up-container">
+      <div class="sign-in-up-tap">
+        <h1 class="login-page-h1">Create Account</h1>
+        <input class="login-page-input" id="sign-up-name" type="text" name="name" placeholder="Name" required />
+        <input class="login-page-input" id="sign-up-email" type="email" name="username" placeholder="Email" required />
+        <input class="login-page-input" id="sign-up-pass" type="password" name="password" placeholder="Password" required />
+        <button class="login-page-btn" id="sign-up-btn" type="submit">Sign Up</button>
+      </div>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay-container">
+      <div class="overlay">
+        <div class="overlay-panel overlay-left">
+          <h1 class="login-page-h1">Welcome Back!</h1>
+          <p class="login-page-p1">To keep connected with us, please log in with your personal info</p>
+          <button class="login-page-btn overlay-btn" id="signIn">Sign In</button>
+        </div>
+        <div class="overlay-panel overlay-right">
+          <h1 class="login-page-h1">Hello, Admin!</h1>
+          <p class="login-page-p1">Enter your personal details and start your journey with us</p>
+          <button class="login-page-btn overlay-btn" id="signUp">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js">
+    
+  </script>
+</body>
+</html>
